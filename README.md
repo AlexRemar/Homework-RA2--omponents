@@ -2,12 +2,14 @@
 
 # 2. Домашнее задание к лекции «События и состояния»
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0o9jv1qbi7vucjuf?svg=true)](https://ci.appveyor.com/project/AlexRemar/Homework-RA2-Components) [[GithubPages](https://AlexRemar.github.io/Homework-RA2-Components)]
+[![Build status](https://ci.appveyor.com/api/projects/status/0o9jv1qbi7vucjuf?svg=true)](https://ci.appveyor.com/project/AlexRemar//Homework-RA2-Components) [[GithubPages](https://AlexRemar.github.io//Homework-RA2-Components)]
 
 ---
 
 **Перейти к:**  
 ***[2.2 Расположение товаров](#2.2)  
+[2.3 Выпадающий список](#2.3)***
+
 ---
 
 ## 2.1 Портфолио с фильтрами
@@ -181,5 +183,31 @@ const products = [{
   img: "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/layouts/img/5.jpg"
 }];
 ```
+---
+
+## <a name="2.3">2.3 Выпадающий список</a>
+***[(наверх)](#top)***
+
+Вам необходимо реализовать компоненты выпадающего списка.
+
+## Описание проекта
+
+![Выпадающий список](./assets/dropdown.png)
+
+Реализуйте компонент `DropdownList`, аналогичный указанному на рисунке. Для позиционирования выпадающего списка воспользуйтес контейнером с `position: relatvie`. Для простоты будем считать, что размер кнопки, при нажатии на которой показывается выпадающий список - фиксированного размера (соответственно, вам не нужно через DOM API вычислять размеры и отступы).
+
+Структура компонентов:
+- `Dropdown` - содержит кнопку и `DropdownList` (внутри себя хранит состояние, показывать или нет выпадающий список)
+- `DropdownList` - содержит список `DropdownItem`'ов, и хранит информацию о текущем выбранном элементе.
+
+Вам нужно:
+1. При клике на кнопку показывать и скрывать выпадающее меню
+1. Отрисовывать список на базе массива, хранящегося в памяти (через `map`)
+1. Подсвечивать выбранный элемент в списке (сделайте это на базе inline-стилей)
+
+"Подглядеть" реализацию показа/сворачивания на чистом JS и CSS вы можете в исходниках, расположенных в этом же каталоге.
+
+Вы можете реализовать данную задачу как с использованием Functional компонентов, так и на базе Class-Based компонентов.
 
 ---
+
