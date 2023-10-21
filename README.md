@@ -2,7 +2,7 @@
 
 # 2. Домашнее задание к лекции «События и состояния»
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0o9jv1qbi7vucjuf?svg=true)](https://ci.appveyor.com/project/AlexRemar//Homework-RA2-Components) [[GithubPages](https://AlexRemar.github.io//Homework-RA2-Components)]
+[![Build status](https://ci.appveyor.com/api/projects/status/0o9jv1qbi7vucjuf?svg=true)](https://ci.appveyor.com/project/AlexRemar/Homework-RA2-Components) [[GithubPages](https://AlexRemar.github.io/Homework-RA2-Components)]
 
 ---
 
