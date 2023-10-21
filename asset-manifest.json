@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Homework-RA2-Components/static/css/main.bb498996.css",
-    "main.js": "/Homework-RA2-Components/static/js/main.924d14db.js",
+    "main.css": "/Homework-RA2-Components/static/css/main.c3a04f7d.css",
+    "main.js": "/Homework-RA2-Components/static/js/main.309ebcf2.js",
     "static/media/Montserrat-Regular.woff2": "/Homework-RA2-Components/static/media/Montserrat-Regular.4d9eac545dbd8e6e6e7d.woff2",
     "static/media/Montserrat-Regular.woff": "/Homework-RA2-Components/static/media/Montserrat-Regular.2f9bb87d767918726ee3.woff",
     "static/media/PTSans-Narrow.woff": "/Homework-RA2-Components/static/media/PTSans-Narrow.3fde4e00fdc473f24963.woff",
@@ -17,11 +17,11 @@
     "static/media/transmission.jpg": "/Homework-RA2-Components/static/media/transmission.8b5162e70ad6baa23f19.jpg",
     "static/media/3.jpg": "/Homework-RA2-Components/static/media/3.07309aa84d98ffdac447.jpg",
     "index.html": "/Homework-RA2-Components/index.html",
-    "main.bb498996.css.map": "/Homework-RA2-Components/static/css/main.bb498996.css.map",
-    "main.924d14db.js.map": "/Homework-RA2-Components/static/js/main.924d14db.js.map"
+    "main.c3a04f7d.css.map": "/Homework-RA2-Components/static/css/main.c3a04f7d.css.map",
+    "main.309ebcf2.js.map": "/Homework-RA2-Components/static/js/main.309ebcf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb498996.css",
-    "static/js/main.924d14db.js"
+    "static/css/main.c3a04f7d.css",
+    "static/js/main.309ebcf2.js"
   ]
 }
